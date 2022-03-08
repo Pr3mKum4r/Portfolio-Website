@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Kumar Singh</title>
+    <!-- Bootsrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- NavBar Section -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+            <div class="container">
+                <!-- Brand NavBar-->
+                <a href="#intro" class="navbar-brand mb-0 text-white">
+                    Prem Kumar Singh
+                </a>
+
+                <!-- Toggle Button For mobile navbar-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--NavBar Links-->
+                <div class="navbar collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-3 mb-0">
+                            <a class="nav-link" href="#intro">About</a>
+                        </li>
+                        <li class="nav-item mx-3 mb-0">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item mx-3 mb-0">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-5 my-4 align-items-center justify-content-center">
+                    <img id="ProfilePic" src="images/profilepic1.jpeg" alt="DP">
+                </div>
+                <div class="col-12 col-lg-6 text-start text-md-end ">
+                    <h1>
+                        <div class="display-2" id="intro-welcome">Hi There !</div>
+                    </h1>
+                    <h1>
+                        <div class="display-5" id="intro-name">
+                            This is Prem
+                        </div>
+                    </h1>
+                    <div class="p-1 p-md-3 fs-4" id="intro-about">I am a first year student at Vellore Institute Of
+                        Technology pursuing Information Technology. Currently i'm exploring different domains and
+                        technologies.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+          el: "#intro",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color1: 0xe1ff,
+          color2: 0xe1ff,
+          birdSize: 1.20,
+          speedLimit: 4.00,
+          separation: 38.00,
+          quantity: 3.00,
+          backgroundAlpha: 0.00
+        })
+    </script>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <script>
+            AOS.init();
+        </script>
+        <div class="row">
+            <h1>
+                <div class="display-2" id="skills-heading">Skills</div>
+            </h1>
+        </div>
+        <div class="row skills-intro">
+            <div class="col">
+                
+            </div>
+        </div>
+        <div class="row tech-stack">
+            <div class="card col-12 col-md-3" data-aos="flip-left" data-aos-duration="1200" id="ts1">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAdWGBDEtQBajxDEhsvfdil8qPuYG-eVIxHA&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>C++</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-3" data-aos="flip-up" data-aos-duration="1200" id="ts2">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShXiS3Dl0jz8Bpy-h2Q2MwNJXH_D5KuYaY4A&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>Python</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:90%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-3" data-aos="flip-right" data-aos-duration="1200" id="ts3">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ayy1yu2wPVJw4YPlVjoxG61pwnlXNamFBw&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>HTML5</span>
+                    <div class="progress">
+                        <div class="progress-bar " style="width:90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row tech-stack2">
+            <div class="card col12 col-md-3" data-aos="flip-left" data-aos-duration="1200" id="ts4">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUlbUpIPPTgUeXwaw8F4UFPRO56YCWbdv4Ew&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>CSS3</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:60%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col12 col-md-3" data-aos="flip-up" data-aos-duration="1200" id="ts5">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf3yzA-T9a_anRPodrNpnYAz5z1og3Hn5qIw&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>JavaScript</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:40%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col12 col-md-3" data-aos="flip-right" data-aos-duration="1200" id="ts6">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSHI7u0mHSTf-Y7G48nBU-NQ8Uz18l-RWviQ&usqp=CAU" alt="Card image cap">
+                <div class="card-body">
+                    <span>Bootstrap5</span>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content" id="contact">
+            <h3>Prem Kumar Singh</h3>
+            <p>Connect With Me On The Following Platforms</p>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/pr3m_hybr1d/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="mailto:premkumarsingh410@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="https://github.com/Pr3mKum4r/"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://in.linkedin.com/in/prem-kumar-singh-a49a46216"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 Prem Kumar Singh
+        </div>
+    </footer>
+</body>
+
+</html>

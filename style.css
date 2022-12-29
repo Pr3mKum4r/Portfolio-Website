@@ -107,6 +107,11 @@ nav {
   padding: 10px;
 }
 
+#projects {
+  background-image: url(images/projects-bg.jpg);
+  padding: 10px;
+}
+
 .tech-stack,
 .tech-stack2 {
   justify-content: space-around;
@@ -128,6 +133,19 @@ nav {
   -webkit-backdrop-filter: blur(4.5px);
   border: 1px solid rgba(4, 215, 255, 0.51);
   
+}
+
+#weather-app, #calculator, #rock-paper-scissors{
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.363);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(4, 215, 255, 0.51);
+  cursor: pointer;
 }
 
 .card-img-top{
